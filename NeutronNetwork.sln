@@ -3,7 +3,45 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeutronNetwork.CNN", "NeutronNetwork.CNN\NeutronNetwork.CNN.csproj", "{F3185EC5-5C5A-40AB-B399-F0D37473AF44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeutronNetwork.CNN.GUI", "NeutronNetwork.CNN.GUI\NeutronNetwork.CNN.GUI.csproj", "{04EA260F-3543-48A8-B74B-A33C9D2363C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeutronNetwork.Helper", "NeutronNetwork.Helper\NeutronNetwork.Helper.csproj", "{0D374A8B-0B19-46FA-AE73-7B7E248CFAB4}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3185EC5-5C5A-40AB-B399-F0D37473AF44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3185EC5-5C5A-40AB-B399-F0D37473AF44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3185EC5-5C5A-40AB-B399-F0D37473AF44}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F3185EC5-5C5A-40AB-B399-F0D37473AF44}.Debug|x64.Build.0 = Debug|Any CPU
+		{F3185EC5-5C5A-40AB-B399-F0D37473AF44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3185EC5-5C5A-40AB-B399-F0D37473AF44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3185EC5-5C5A-40AB-B399-F0D37473AF44}.Release|x64.ActiveCfg = Release|Any CPU
+		{F3185EC5-5C5A-40AB-B399-F0D37473AF44}.Release|x64.Build.0 = Release|Any CPU
+		{04EA260F-3543-48A8-B74B-A33C9D2363C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04EA260F-3543-48A8-B74B-A33C9D2363C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04EA260F-3543-48A8-B74B-A33C9D2363C6}.Debug|x64.ActiveCfg = Debug|x64
+		{04EA260F-3543-48A8-B74B-A33C9D2363C6}.Debug|x64.Build.0 = Debug|x64
+		{04EA260F-3543-48A8-B74B-A33C9D2363C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04EA260F-3543-48A8-B74B-A33C9D2363C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04EA260F-3543-48A8-B74B-A33C9D2363C6}.Release|x64.ActiveCfg = Release|x64
+		{04EA260F-3543-48A8-B74B-A33C9D2363C6}.Release|x64.Build.0 = Release|x64
+		{0D374A8B-0B19-46FA-AE73-7B7E248CFAB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D374A8B-0B19-46FA-AE73-7B7E248CFAB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D374A8B-0B19-46FA-AE73-7B7E248CFAB4}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{0D374A8B-0B19-46FA-AE73-7B7E248CFAB4}.Debug|x64.Build.0 = Debug|Any CPU
+		{0D374A8B-0B19-46FA-AE73-7B7E248CFAB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D374A8B-0B19-46FA-AE73-7B7E248CFAB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D374A8B-0B19-46FA-AE73-7B7E248CFAB4}.Release|x64.ActiveCfg = Release|Any CPU
+		{0D374A8B-0B19-46FA-AE73-7B7E248CFAB4}.Release|x64.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection

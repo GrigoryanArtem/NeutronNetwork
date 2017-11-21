@@ -1,0 +1,10 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:NeutronNetwork.CNN.GUI.Resources"
+                    xmlns:v="clr-namespace:System;assembly=mscorlib">
+    <v:String x:Key="rClear">Clear</v:String>
+    <v:String x:Key="rAnalyze">Analyze</v:String>
+    <v:String x:Key="rCopyRight">© Artem Grigoryan 2017</v:String>
+    <v:String x:Key="rOk">OK</v:String>
+    <v:String x:Key="rThinking">Thinking...</v:String>
+</ResourceDictionary>
